@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ES2020", // Поддержка современных возможностей JS
+		"module": "CommonJS", // Использование CommonJS модулей
+		"strict": true, // Строгая типизация
+		"esModuleInterop": true, // Совместимость с ES модулями
+		"skipLibCheck": true, // Пропустить проверку типов в библиотеках
+		"forceConsistentCasingInFileNames": true, // Проверка на регистрозависимость имён файлов
+		"outDir": "./dist", // Папка для скомпилированных файлов
+		"rootDir": "./src" // Исходная папка
+	},
+	"include": ["src/**/*"], // Включение всех файлов в src
+	"exclude": ["node_modules"] // Исключение node_modules
+}

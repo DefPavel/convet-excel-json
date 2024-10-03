@@ -1,1 +1,3 @@
-# convet-excel-json
+# Convert Excel to JSON
+
+Проект создан для конвертации файлов Excel в формат JSON с использованием Node.js + TypeScript. Скрипт читает файл Excel, обрабатывает его листы и сохраняет результат в JSON-файл.
