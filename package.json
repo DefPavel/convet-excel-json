@@ -6,7 +6,8 @@
 	"scripts": {
 		"start": "node dist/index.js",
 		"build": "tsc",
-		"dev": "nodemon --exec ts-node src/index.ts"
+		"dev": "nodemon --exec ts-node src/index.ts",
+		"compare": "node dist/compare.js"
 	},
 	"keywords": [],
 	"author": "",
